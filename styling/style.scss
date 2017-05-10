@@ -1,0 +1,117 @@
+//fonts
+$font-stack: "Roboto", sans-serif;
+//variables for colors
+$heading-text-color: #47525E;
+$heading-background-color: #F0EDF7;
+$division-background-color: #EDFFAC;
+$record-win-color: #13CE66;
+$record-loss-color: #DF2D12;
+$record-draw-color: #13BACE;
+
+html {
+  height: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  font-family: $font-stack;
+  color: $heading-text-color;
+}
+
+.boxer-pic {
+  height: 280px;
+}
+
+.card-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information-container {
+  width: 380px;
+  height: 280px;
+}
+
+.heading {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $heading-background-color;
+    .main-heading {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      font-size: 30px;
+      margin-top: 20px;
+    }
+    .flag-container {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      justify-content: flex-end;
+      margin-right: 20px;
+        .flag {
+          height: 25px;
+          width: 40px;
+        }
+      }
+      .alias-container {
+        display: flex;
+        width: 80%;
+        height: 100%;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 20px;
+      }
+}
+
+.division-container {
+  width: 100%;
+  background-color: $division-background-color;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.record-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #EFFAF4;
+  font-size: 50px;
+  .record-win {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $record-win-color;
+    color: white;
+  }
+  .record-loss {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $record-loss-color;
+    color: white;
+  }
+  .record-draw {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $record-draw-color;
+    color: white;
+  }
+}

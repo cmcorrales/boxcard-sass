@@ -1,0 +1,96 @@
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #47525E; }
+
+.boxer-pic {
+  height: 280px; }
+
+.card-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.information-container {
+  width: 380px;
+  height: 280px; }
+
+.heading {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F0EDF7; }
+  .heading .main-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 30px;
+    margin-top: 20px; }
+  .heading .flag-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    margin-right: 20px; }
+    .heading .flag-container .flag {
+      height: 25px;
+      width: 40px; }
+  .heading .alias-container {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 20px; }
+
+.division-container {
+  width: 100%;
+  background-color: #EDFFAC;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px; }
+
+.record-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #EFFAF4;
+  font-size: 50px; }
+  .record-container .record-win {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #13CE66;
+    color: white; }
+  .record-container .record-loss {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DF2D12;
+    color: white; }
+  .record-container .record-draw {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #13BACE;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
